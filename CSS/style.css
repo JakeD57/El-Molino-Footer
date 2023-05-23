@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  .container-1 {
+        display: flex;
+        background-color:#222222;
+        align-items: center;
+        padding: 40px;
+        gap: 4em;
+        flex-wrap: wrap;
+    } 
+    
+   .p-1-white {
+       color: #ffffff;
+       font-family: 'Roboto', sans-serif;
+       font-size: 18px;
+       margin-bottom: 10px;
+       font-weight: 500;
+   }
+
+   .p-small-white {
+       color: #cbcbcb;
+       font-family: 'Roboto', sans-serif;
+       font-size: 14px;
+   }
+
+   .telephone--link {
+       color: #ffffff;
+       text-decoration: none;
+       font-family: 'Roboto', sans-serif;
+       font-size: 16px;
+       transition: all 0.3s;
+   }
+
+   .telephone--link:hover {
+       color: #b99f68;
+   }
+
+   .social--footer--icons {
+       text-decoration: none;
+       color: #ffffff;
+       transition: all 0.3s;
+   }
+
+   .social--footer--icons:hover {
+   color: #b99f68;
+}
+
+
+
+
+.facebook--footer {
+margin-right: 10px;
+margin-left: 10px;
+font-size: 20px;
+}
+
+.insta--footer {
+    font-size: 20px;
+}
+  
+    
+    .logo--white--footer {
+        max-width: 100%;
+        height: auto;
+        width: 100px;
+        filter: brightness(0) invert(1);   
+      
+    }
+
+    .footer-whats-ap-button {
+        text-decoration: none;
+        color: #ffffff;
+        background: #037a11;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 30px;
+        margin-top: 14px;
+        transition: all 0.3s;
+        display: flex;
+    align-items: center;
+    }
+
+    .footer-whats-ap-button:hover {
+        background: #02610d;
+       
+    }
+
+    .hidden--text {
+    margin-left: 10px;
+}
+
+.footer--whats--app {
+    font-size: 30px;
+}
+
+    
+    /* small phones to small tablets: from 481px to 767px */
+    @media only screen and (min-width: 1000px) {
+        .box-3 {
+    margin-left: auto;
+}
+    
+        
+      
+        
+    }
+        
+    /* small phones to small tablets: from 481px to 767px */
+    @media only screen and (max-width: 767px) {
+        .container-1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      }
+        
+        .logo--white--footer {
+            width: 200px;
+        }
+        
+        
+    }
+
+    @media only screen and (max-width: 500px) {
+   
+        
+        .box-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.footer-whats-ap-button {
+        margin-top: 0px;
+        width: fit-content;
+     
+    } 
+
+    .hidden--text {
+    display: none;
+}
+      
+        
+    }
+
+
